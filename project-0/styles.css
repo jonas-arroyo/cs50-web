@@ -5,5 +5,12 @@ body {
 }
 
 .nav {
-  align-items: end;
+  align-items: center;
+  display: flex;
+  background-color: gold;
+}
+
+input {
+  border-style: solid;
+  border-color: lightgray;
 }
