@@ -1,0 +1,20 @@
+$color: red;
+$background-color: gold;
+
+body {
+  color: $color;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  background-color: $background-color;
+}
+
+input {
+  border-style: solid;
+  border-color: lightgray;
+}
