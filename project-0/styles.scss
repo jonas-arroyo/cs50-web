@@ -1,5 +1,5 @@
-$color: red;
 $background-color: gold;
+$border-color: lightgray;
 
 body {
   color: $color;
@@ -16,5 +16,9 @@ body {
 
 input {
   border-style: solid;
-  border-color: lightgray;
+  border-color: $border-color;
+}
+
+.logo {
+  padding-top: 50px;
 }
