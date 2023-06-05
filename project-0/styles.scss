@@ -1,6 +1,7 @@
 $background-color: gold;
 $border-color: lightgray;
 $logo-color: red;
+$font-color: black;
 
 /* body {
   display: flex;
@@ -14,6 +15,7 @@ $logo-color: red;
   justify-content: flex-end;
   background-color: $background-color;
   margin-right: 50px;
+  align-items: center;
 }
 
 input {
@@ -26,6 +28,7 @@ input {
 
 input[type="text"] {
   width: 30%;
+  border-radius: 40px;
 }
 
 .logo {
@@ -41,4 +44,19 @@ form {
   align-items: center;
   flex-direction: column;
   margin-top: 25px;
+}
+
+a[href="image-search.html"],
+a[href="advanced-search.html"] {
+  color: $font-color;
+}
+
+a[href="image-search.html"]:hover,
+a[href="advanced-search.html"]:hover {
+  color: $font-color;
+  text-decoration: underline;
+}
+
+.search {
+  margin: 25px;
 }
