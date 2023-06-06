@@ -1,22 +1,37 @@
 .nav {
   display: flex;
   justify-content: flex-end;
-  background-color: gold;
   margin: 10px 50px;
   align-items: center;
+  font-size: smaller;
 }
 
 input {
   border-style: solid;
-  border-color: lightgray;
+  border-color: rgb(241, 241, 241);
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-size: smaller;
 }
 
 input[type=text] {
   width: 30%;
   border-radius: 40px;
+  flex-direction: column;
+  padding: 5px 15px;
+  -webkit-text-fill-color: initial;
+  caret-color: initial;
+  background-color: initial;
+  border-color: rgb(241, 241, 241);
+  outline-color: rgb(241, 241, 241);
+}
+
+input[type=submit] {
+  background-color: rgb(241, 241, 241);
+  border-style: none;
+  padding: 5px 18px;
+  border-radius: 5px;
 }
 
 .logo {
@@ -24,7 +39,6 @@ input[type=text] {
   align-items: center;
   display: flex;
   margin-top: 8%;
-  background-color: red;
 }
 
 form {
@@ -32,7 +46,7 @@ form {
   align-items: center;
   flex-direction: column;
   margin-top: 25px;
-  background-color: gold;
+  font-size: smaller;
 }
 
 a[href="image-search.html"],
@@ -48,9 +62,15 @@ a[href="advanced-search.html"]:hover {
 
 .search {
   margin-top: 25px;
+  flex-direction: column;
 }
 
 .search,
 .lucky {
   flex-direction: row;
+}
+
+input[type=submit]:hover {
+  border: 1px solid #c0c0c0;
+  box-shadow: 1px;
 }/*# sourceMappingURL=styles.css.map */
