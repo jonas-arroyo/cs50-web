@@ -3,18 +3,11 @@ $border-color: lightgray;
 $logo-color: red;
 $font-color: black;
 
-/* body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-} */
-
 .nav {
-  /* align-items: center; */
   display: flex;
   justify-content: flex-end;
   background-color: $background-color;
-  margin-right: 50px;
+  margin: 10px 50px;
   align-items: center;
 }
 
@@ -35,7 +28,7 @@ input[type="text"] {
   flex-direction: column;
   align-items: center;
   display: flex;
-  margin-top: 10%;
+  margin-top: 8%;
   background-color: $logo-color;
 }
 
@@ -44,6 +37,7 @@ form {
   align-items: center;
   flex-direction: column;
   margin-top: 25px;
+  background-color: $background-color;
 }
 
 a[href="image-search.html"],
@@ -59,4 +53,9 @@ a[href="advanced-search.html"]:hover {
 
 .search {
   margin-top: 25px;
+}
+
+.search,
+.lucky {
+  flex-direction: row;
 }
