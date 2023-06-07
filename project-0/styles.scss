@@ -2,30 +2,27 @@ $background-color: gold;
 $border-color: rgb(241, 241, 241);
 $logo-color: red;
 $font-color: black;
-$font-size: smaller;
+$font-size: small;
+$text-center-offset: 50%;
 
 .nav {
   display: flex;
   justify-content: flex-end;
   margin: 10px 50px;
   align-items: center;
-  font-size: $font-size;
 }
 
 input {
   border-style: solid;
   border-color: $border-color;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-size: $font-size;
+  /* display: flex;
+  align-items: center; */
 }
 
 input[type="text"] {
-  width: 30%;
+  width: 35%;
   border-radius: 40px;
-  flex-direction: column;
-  padding: 5px 15px;
+  padding: 10px 20px;
   -webkit-text-fill-color: initial;
   caret-color: initial;
   background-color: initial;
@@ -47,13 +44,12 @@ input[type="submit"] {
   margin-top: 8%;
 }
 
-form {
+/* form {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 25px;
-  font-size: $font-size;
-}
+} */
 
 a[href="image-search.html"],
 a[href="advanced-search.html"] {
@@ -66,17 +62,19 @@ a[href="advanced-search.html"]:hover {
   text-decoration: underline;
 }
 
-.search {
-  margin-top: 25px;
-  flex-direction: column;
-}
-
 .search,
 .lucky {
+  margin-top: 25px;
   flex-direction: row;
 }
 
 input[type="submit"]:hover {
   border: 1px solid #c0c0c0;
   box-shadow: 1px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
 }
