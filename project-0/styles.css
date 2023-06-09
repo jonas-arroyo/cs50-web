@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   justify-content: right;
-  margin: 10px 50px;
+  margin: 0.6rem 3.125rem;
 }
 
 a[href="image-search.html"],
@@ -19,7 +19,7 @@ a[href="advanced-search.html"]:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 8%;
+  margin-top: 8rem;
 }
 
 input {
@@ -32,27 +32,31 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: red;
 }
 
 .text {
   width: 35rem;
-  background-color: gold;
-  margin-top: 25px;
-  border-radius: 40px;
-  padding: 10px 20px;
+  margin-top: 1.5rem;
+  border-radius: 2.5rem;
+  padding: 0.625rem 1.25rem;
   -webkit-text-fill-color: initial;
   border-color: rgb(241, 241, 241);
   outline-color: rgb(241, 241, 241);
 }
 
+.button {
+  display: block;
+  text-align: -webkit-center;
+  margin: 2rem 2rem;
+}
+
 .submit {
-  margin: 20px 60px;
-  padding: 5px 16px;
+  padding: 0.3rem 1rem;
+  margin: 0rem 0.5rem;
   background-color: rgb(241, 241, 241);
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 
 .submit:hover {
-  border: 1px solid #c0c0c0;
+  border: 0.063rem solid #c0c0c0;
 }/*# sourceMappingURL=styles.css.map */
