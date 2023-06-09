@@ -5,17 +5,20 @@
 }
 
 a[href="image-search.html"],
-a[href="advanced-search.html"] {
+a[href="advanced-search.html"],
+a[href="index.html"] {
   color: black;
 }
 
 a[href="image-search.html"]:hover,
-a[href="advanced-search.html"]:hover {
+a[href="advanced-search.html"]:hover,
+a[href="index.html"]:hover {
   color: black;
   text-decoration: underline;
 }
 
-.logo {
+.logo,
+.image-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +30,8 @@ input {
   border-color: rgb(241, 241, 241);
 }
 
-.wrapper {
+.wrapper,
+.image-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,19 +48,22 @@ input {
   outline-color: rgb(241, 241, 241);
 }
 
-.button {
+.button,
+.image-button {
   display: block;
   text-align: -webkit-center;
   margin: 2rem 2rem;
 }
 
-.submit {
+.submit,
+.image-submit {
   padding: 0.3rem 1rem;
   margin: 0rem 0.5rem;
   background-color: rgb(241, 241, 241);
   border-radius: 0.313rem;
 }
 
-.submit:hover {
+.submit:hover,
+.image-submit:hover {
   border: 0.063rem solid #c0c0c0;
 }/*# sourceMappingURL=styles.css.map */
