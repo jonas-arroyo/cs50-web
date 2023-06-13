@@ -20,28 +20,20 @@
     </div>
     <label class="advanced-heading">Advanced Search</label>
     <hr class="top-line" />
-    <div class="advanced-search-form">
-      <form action="https://www.google.com/search">
-        <div class="find">Find pages with...</div>
-        <div name="f" class="words">
-          <label for="line-one">all these words:</label
-          ><input type="text" class="advanced-search-bar" />
-        </div>
-        <div name="f" class="words">
-          <label for="line-two">this exact word or phrase:</label>
-          <input type="text" class="advanced-search-bar" />
-        </div>
-        <div name="f" class="words">
-          <label for="line-three">any of these words:</label>
-          <input type="text" class="advanced-search-bar" />
-        </div>
-        <div name="f" class="words">
-          <label for="line-four">none of these words:</label>
-          <input type="text" class="advanced-search-bar" />
-        </div>
-      </form>
+    <form action="https://www.google.com/search" class="advanced-search-form">
+      <div class="find">Find pages with...</div>
+      <div class="advanced-search-fields">
+        <label for="words">all these words:</label>
+        <input type="text" class="advanced-search-bar" />
+        <label for="words">this exact word or phrase:</label>
+        <input type="text" class="advanced-search-bar" />
+        <label for="words">any of these words:</label>
+        <input type="text" class="advanced-search-bar" />
+        <label for="words">none of these words:</label>
+        <input type="text" class="advanced-search-bar" />
+      </div>
       <input type="submit" value="Advanced Search" class="advanced-button" />
-      <hr class="bottom-line" />
-    </div>
+    </form>
+    <hr class="bottom-line" />
   </body>
 </html>
