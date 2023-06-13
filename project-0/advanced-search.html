@@ -22,23 +22,25 @@
     <hr class="top-line" />
     <div class="advanced-search-form">
       <form action="https://www.google.com/search">
-        <div>Find pages with...</div>
+        <div class="find">Find pages with...</div>
         <div name="f" class="words">
-          all these words: <input type="text" class="advanced-search-bar" />
+          <label for="line-one">all these words:</label
+          ><input type="text" class="advanced-search-bar" />
         </div>
         <div name="f" class="words">
-          this exact word or phrase:
+          <label for="line-two">this exact word or phrase:</label>
           <input type="text" class="advanced-search-bar" />
         </div>
         <div name="f" class="words">
-          any of these words:
+          <label for="line-three">any of these words:</label>
           <input type="text" class="advanced-search-bar" />
         </div>
         <div name="f" class="words">
-          none of these words:
+          <label for="line-four">none of these words:</label>
           <input type="text" class="advanced-search-bar" />
         </div>
       </form>
+      <input type="submit" value="Advanced Search" class="advanced-button" />
       <hr class="bottom-line" />
     </div>
   </body>
