@@ -24,15 +24,20 @@
       <div class="find">Find pages with...</div>
       <div class="advanced-search-fields">
         <label for="words">all these words:</label>
-        <input type="text" class="advanced-search-bar" />
+        <input type="text" class="advanced-search-bar" name="as_q" />
         <label for="words">this exact word or phrase:</label>
-        <input type="text" class="advanced-search-bar" />
+        <input type="text" class="advanced-search-bar" name="as_epq" />
         <label for="words">any of these words:</label>
-        <input type="text" class="advanced-search-bar" />
+        <input type="text" class="advanced-search-bar" name="as_oq" />
         <label for="words">none of these words:</label>
-        <input type="text" class="advanced-search-bar" />
+        <input type="text" class="advanced-search-bar" name="as_eq" />
       </div>
-      <input type="submit" value="Advanced Search" class="advanced-button" />
+      <input
+        type="submit"
+        value="Advanced Search"
+        id="adv-button"
+        class="advanced-button"
+      />
     </form>
     <hr class="bottom-line" />
   </body>
