@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Count</title>
     <script>
-      let counter = 0;
-      function count() {
-        counter++;
-        alert(counter);
+      function hello() {
+        const header = document.querySelector("h1");
+        if (header.innerHTML === "Hello!") {
+          header.innerHTML = "Goodbye!";
+        } else {
+          header.innerHTML = "Hello";
+        }
       }
     </script>
   </head>
   <body>
     <h1>Hello!</h1>
-    <button onClick="count()">Count</button>
+    <button onClick="count()">Click Here</button>
   </body>
 </html>
